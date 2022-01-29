@@ -1,0 +1,344 @@
+html{
+  scroll-behavior: smooth;
+  width: 100%;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+* {
+    box-sizing: border-box;
+    list-style: none; 
+}
+body{
+    background: #cfbaf0;
+}
+  header h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:red;
+    text-decoration: none;
+    font-size: 2.5rem;
+  }
+  li a{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+  li a:hover{
+    color: red;
+  }
+  header{
+    background: #7400b8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 10% 1.5rem 10%;
+    transition: background 200ms ease-in;
+    position: fixed;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.884);
+    z-index: 5;
+  }
+  .nav-links li{
+    display: inline-block;
+    padding:0 20px;
+  }
+  .nav-links {
+    list-style: none;
+  }
+  header.sticky{
+    background-color: black !important;
+  }
+.about {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .imgg{
+    padding: 50px;
+    }
+  .image{
+    box-shadow: 0 0.2rem 1.5rem 0.2rem purple;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 10%;
+    display: block;
+    width: 90%;
+    height: 100%;
+  }
+   .myself {
+    text-align: center;
+    margin:5%;
+    width: 50rem;
+    padding: 1rem;
+  } 
+  .myself h1 {
+    text-align: left;
+    color: #301934;
+    font-size: 85px;
+    font-family: 'Lora', sans-serif;
+    padding-left: 80px;
+    margin-bottom: 50px;
+  }
+ 
+  .myself p {
+    color: #7400b8;
+    padding-left:80px;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Comforter', cursive;
+    line-height: 1.2emv;
+  }
+.hobbies{
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  margin-bottom: 100px;
+  
+}
+.hobbies h1{
+  color: #301934;
+  margin: 50px 50px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 150;
+  font-family: 'Roboto Slab', serif;
+}
+.hobby {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  gap: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.hobby div{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Shadows Into Light', cursive;;
+}
+
+.hbby{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hbby:hover{
+  border-color: yellow;
+  border-radius: 15%;
+  color: #6a040f;
+  box-shadow: 0 0.5em 0.5em -0.4em yellow;
+  transform: translateY(-0.2rem);
+  transition: all 500ms;
+}
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin: auto;
+}
+.skills h1{
+  color:#301934;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 150;
+  font-family: 'Roboto Slab', serif;
+}
+
+.skillbar{
+  display: flex;
+  padding: 10%;
+  flex-direction: column;
+  width: 600px;
+  margin: 60px auto;
+  color: white;
+  padding: 20px;
+  background-color: black;
+  border-radius: 25px;
+  box-shadow: 0.5em 0.5em 0.5em -0.4em blueviolet;
+  transform: translateY(-80px);
+}
+.skillbar h3{
+  margin: 5px;
+  width: 70px;
+  text-align: center;
+}
+.bar{
+  background: #353b48;
+  display: block;
+  width: 70%;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+.bar>span{
+  background-color: blueviolet;
+  position: absolute;
+  height: 100%;
+ }
+.skill-html{
+  width: 90%;
+}
+.skill-cpp{
+  width: 80%;
+}
+.skill-css{
+  width: 70%;
+}
+.skill-js{
+  width: 20%;
+}
+.logo > div{
+  display: flex;
+  align-items: center;
+  }
+.logo1:hover{
+  transform: translateY(-2.5px);
+}
+
+
+footer {
+  background: #232323;
+  padding: 25px 10% 10px 10%;
+}
+footer .links {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+footer .links a {
+  font-size: 1.6rem;
+  color: inherit;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 15px;
+  opacity: 0.5;
+}
+footer .links a:hover {
+  opacity: 1;
+}
+footer .cc {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #aaa;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+/*For responsive*/
+@media(max-width:920px)
+{ 
+  .hobbies{
+    padding-top: 0%;
+  }
+  header{
+    flex-direction: column;
+    align-items: center;
+    font-size: 50%;
+    margin:0;
+    padding:5px;
+  }
+  .skillbar{
+    width: 80%;
+  }
+  .myself{
+    width: 90%;
+  }
+  .myself h1{
+    padding:0;
+    font-size: 50px;
+  }
+  .myself p{
+    padding: 0;
+  }
+  .skills h1{
+    font-size: 50px;
+  }
+  .hobbies h1{
+    font-size: 50px;
+  }
+  .about{
+    padding-top: 150px;
+    flex-direction: column-reverse;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  header h1{
+    font-size: 30px;
+  }
+}
+@media(max-width:542px)
+{
+  .nav-links li{
+    display: flex;
+  }
+}
